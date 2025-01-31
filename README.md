@@ -43,7 +43,7 @@ asdf install linuxkit latest
 asdf global linuxkit latest
 
 # Now linuxkit commands are available
-linuxkit --version
+linuxkit version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
