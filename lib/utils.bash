@@ -56,7 +56,7 @@ download_release() {
   platform="$(current_platform)"
   arch="$(current_arch)"
 
-  url="$GH_REPO/releases/download/${version}/linuxkit-${platform}-${arch}"
+  url="$GH_REPO/releases/download/v${version}/linuxkit-${platform}-${arch}"
 
   echo "* Downloading $TOOL_NAME release $version..."
   curl "${curl_opts[@]}" -o "$filename" -C - "$url" || fail "Could not download $url"
